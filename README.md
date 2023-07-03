@@ -14,7 +14,6 @@ To run this project on your local machine, follow the instructions below:
 
 1. Clone the repository to your local machine using the following command:
 ```bash
-# Example Bash Command
 $ git clone https://github.com/your-username/contact-app.git
 ```
 2.Navigate to the project directory
@@ -30,8 +29,8 @@ $ npm install
 #4.Create a .env file and define environment variables
 ```bash
 $ touch .env
-$ echo "PORT=3000" >> .env
-$ echo "DB_URL=your-db-url" >> .env
+$ echo "PORT=5000" >> .env
+$ echo "CONNECTION_STRING=your-db-url" >> .env
 ```
 Replace your-db-url with the URL for your database. If you don't have a database yet, you can set up a local development database or use a cloud-based solution like MongoDB Atlas.
 
